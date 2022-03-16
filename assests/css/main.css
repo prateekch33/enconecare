@@ -11,7 +11,7 @@ ul {
 }
 
 .section-padding {
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 .navbar-nb {
@@ -98,7 +98,7 @@ ul {
 }
 
 .details-section {
-  margin: 8% 5%;
+  margin: auto 5%;
 }
 
 .topic-heading {
@@ -116,8 +116,8 @@ ul {
   align-items: center;
 }
 
-.carousel-item {
-  height: 80vh;
+.carousel-inner {
+  height: 36em;
 }
 
 .why-us {
@@ -359,7 +359,23 @@ ul {
 
 @media (max-width: 992px) {
   .section-padding {
-    padding-top: 10%;
+    padding-top: 6%;
+  }
+
+  .details-section {
+    padding-top: 4%;
+  }
+  
+  .main {
+    margin-top: 20%;
+  }
+  
+  .carousel {
+    margin: auto;
+  }
+
+  .carousel-inner {
+    height: 20vh;
   }
 
   .navbar-nb {
@@ -419,11 +435,5 @@ ul {
     align-items: center;
     flex-direction: column;
     text-align: center;
-  }
-}
-
-@media (max-width: 786px) {
-  .main {
-    margin-top: 30%;
   }
 }
