@@ -11,7 +11,7 @@ ul {
 }
 
 .section-padding {
-  padding-top: 8%;
+  padding-top: 10%;
 }
 
 .navbar-nb {
@@ -359,7 +359,7 @@ ul {
 
 @media (max-width: 992px) {
   .section-padding {
-    padding-top: 6%;
+    padding-top: 20%;
   }
 
   .details-section {
@@ -439,6 +439,10 @@ ul {
 }
 
 @media(max-width: 600px) {
+  .section-padding {
+    padding-top: 16%;
+  }
+
   .carousel-inner {
     height: 16em;
   }
