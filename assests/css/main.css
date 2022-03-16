@@ -437,3 +437,9 @@ ul {
     text-align: center;
   }
 }
+
+@media(max-width: 600px) {
+  .carousel-inner {
+    height: 16em;
+  }
+}
