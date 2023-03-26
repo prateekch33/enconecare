@@ -46,7 +46,7 @@ ul {
 }
 
 .navbar-image {
-  width: 120px;
+  width: 160px;
 }
 
 .navbar-image-logo {
@@ -72,7 +72,7 @@ ul {
 }
 
 .navbar-collapse {
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 .nav-item {
@@ -81,6 +81,7 @@ ul {
 
 .nav-link {
   color: #fff !important;
+  font-size: 24px;
 }
 
 .nav-contact .tel {
@@ -99,6 +100,24 @@ ul {
 
 .details-section {
   margin: auto 5%;
+}
+
+.details-section img {
+  border-radius: 15px;
+}
+
+.details-section .col-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-section .row {
+  margin: 80px 0 40px 0;
+}
+
+.details-section strong {
+  font-size: 30px;
 }
 
 .topic-heading {
