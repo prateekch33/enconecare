@@ -22,6 +22,7 @@ ul {
   z-index: 5;
   top: 0;
   background-color: #fff;
+  margin-bottom: 40%;
 }
 
 .carousel {
@@ -181,11 +182,16 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .u-item-img {
   width: 30%;
   margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .address .list-name {
@@ -375,7 +381,11 @@ ul {
 .copyright h5 {
   font-size: 14px;
 }
-
+@media(max-width:490px) {
+  .main {
+    margin-top: 40%;
+  }
+}
 @media (max-width: 992px) {
   .section-padding {
     padding-top: 20%;
@@ -415,7 +425,7 @@ ul {
   }
 
   .main {
-    margin-top: 25%;
+    margin-top: 30%;
   }
 
   .row {
